@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Koulen&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Serif&family=Playfair+Display:ital@1&family=Whisper&display=swap');
+@font-face {
+    font-family: 'Hanoienne';
+    src: url('../../public/font/L\'Hanoienne-Demo.ttf') format('truetype');
+}
+.header{
+    position: fixed;
+    top: 0;
+    padding: 0 2rem;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1;
+}
+.title{
+    align-items: center;
+    font-family: 'Hanoienne';
+    font-size: xx-large;
+    padding: 0 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+.navbar{
+    height: 80px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    font-weight: lighter;
+}
+.menu li{
+    display: inline;
+    padding: 15px;
+    align-items: center;
+}
+.menu li a{
+    position: relative;
+}
+.menu li a::after{
+    content: "";
+    position: absolute;
+    top: 55%;
+    width: 0%;
+    background-color: currentColor;
+    height: 1px;
+    transform: translate(-101%,-50%);
+    transition: .4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.menu li a:hover::after{
+    width: 100%;
+}
+.progress{
+    padding: 0 2rem;
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    appearance: none;
+    width: 100%;
+    height: 1px;
+    border: none;
+    background: transparent;
+}
+.scroller{
+    position: absolute;
+    top: 0;
+    left: -28px;
+    bottom: 0;
+    right: -28px;
+    background-color: rgba(19,19,19,.15);
+    -webkit-backdrop-filter: blur(6px);
+    backdrop-filter: blur(6px);
+    opacity: 0;
+    z-index: -1;
+}
