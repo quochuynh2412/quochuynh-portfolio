@@ -6,7 +6,6 @@ import React from 'react'
 import $ from 'jquery'
 import ThreeScene from '../components/ThreeScene/ThreeScene'
 import Card from '../components/Card/Card'
-import Image from 'next/image'
 export default class Home extends React.Component{
   componentDidMount(){
     window.onscroll =()=>{
