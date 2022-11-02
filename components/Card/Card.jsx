@@ -1,15 +1,16 @@
 import projects from '../../json/data.json'
 import Link from 'next/link';
 import Project from '../../pages/project';
+import Image from 'next/image';
 export default function Card(){
     return(
         <div className='grid grid-cols-4 gap-6 pt-16'>
             {projects.map(project => (
-                <div class="max-w-sm rounded-lg shadow-md bg-zinc-800">
+                <div key={project.id} class="max-w-sm rounded-lg shadow-md bg-zinc-800">
                 <Link href='/project'>
-                    <img class="rounded-t-lg w-full" src={project.img} alt="" />
+                    <Image class="rounded-t-lg w-full" src={project.img} alt="" />
                 </Link>
-                <div class="p-5">
+                <div key={project.id} class="p-5">
                     <a href="#">
                         <h5 class="mb-2 text-xl font-bold tracking-tight text-zinc-900 dark:text-white">{project.title}</h5>
                     </a>

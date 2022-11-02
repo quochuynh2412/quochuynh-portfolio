@@ -6,6 +6,7 @@ import React from 'react'
 import $ from 'jquery'
 import ThreeScene from '../components/ThreeScene/ThreeScene'
 import Card from '../components/Card/Card'
+import Image from 'next/image'
 export default class Home extends React.Component{
   componentDidMount(){
     window.onscroll =()=>{
@@ -38,14 +39,14 @@ export default class Home extends React.Component{
         <Header/>
         <div className={styles.wrapper}>
           <div className={styles.background} id='bg'>
-            <img src='/img/tranh-ngu-ho-2.jpg' id='bg-img'></img>
+            <Image src='/img/tranh-ngu-ho-2.jpg' id='bg-img'></Image>
           </div>
           <main className={styles.container}>
             <div className={styles.main}>
               <div className='flex flex-row w-full' id={styles.typo}>
                 <div className='relative shrink-0 basis-2/3 items-end'>
                   <div className={styles.typo2}>
-                    I'M <span>a programmer</span><br></br>QUOC HUYNH
+                    I&apos;M <span>a programmer</span><br></br>QUOC HUYNH
                   </div>
                 </div>
                 <div className='basis-1/3 flex flex-col'>
