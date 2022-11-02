@@ -1,11 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Header from '../components/Header'
+import Header from '../components/Header/Header'
 import React from 'react'
 import $ from 'jquery'
 import ThreeScene from '../components/ThreeScene/ThreeScene'
-import Card from './Card'
+import Card from '../components/Card/Card'
 export default class Home extends React.Component{
   componentDidMount(){
     window.onscroll =()=>{
@@ -71,10 +71,16 @@ export default class Home extends React.Component{
                   </div>
                 </div>
                 <div className='py-16'>
-                  <h2 className={styles.sheading}>Projects</h2>
-                  <div className='grid grid-cols-4 gap-4 pt-16'>
+                  <h2 className={styles.sheading}>Selected Projects</h2>
                     <Card/>
-                  </div>
+                </div>
+                <div className='py-16'>
+                  <h2 className={styles.sheading}>Work Experience</h2>
+                    <Card/>
+                </div>
+                <div className='py-16'>
+                  <h2 className={styles.sheading}>Contact</h2>
+                    <Card/>
                 </div>
               </section>
             </div>

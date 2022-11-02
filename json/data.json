@@ -1,26 +1,23 @@
 ﻿[
     {
-        "id": "0",
-        "title": "Arduino water quality index monitoring system (Vietnamese Report)",
-        "year": "2019",
-        "description": null
+        "id": 0,
+        "title": "Web portfolio",
+        "year": "2022",
+        "img": "/img/web-portfolio-01.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
     },
     {
-        "id": "1",
-        "title": "Micro:bit automatic plant watering device",
+        "id": 1,
+        "title": "Arduino air quality index monitoring system",
         "year": "2021",
-        "description": null
+        "img": "/img/air-quality-project.jpg",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
     },
     {
         "id": 2,
-        "title": "Arduino air quality index monitoring system",
-        "year": "2021",
-        "description": ""
-    },
-    {
-        "id": 3,
-        "title": "Web portfolio",
-        "year": "2022",
-        "description": null
+        "title": "Arduino water quality index monitoring system",
+        "year": "2019",
+        "img": "/img/water-quality-project.png",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
     }
 ]
