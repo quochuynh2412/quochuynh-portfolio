@@ -20,10 +20,10 @@
   display: absolute;
   position: fixed;
   width: 100%;
+  min-width: 1080px;
   height: 100vh;
   z-index: -1;
   opacity: 1;
-
 }
 .background img{
   background-color:#222;
@@ -34,7 +34,6 @@
   opacity: 1;
 }
 .main {
-  min-height: 100vh;
   padding: 9rem 0;
   flex: 1;
   display: flex;
@@ -131,6 +130,26 @@
   .grid {
     width: 100%;
     flex-direction: column;
+  }
+  .container{
+    padding: 0 1.5rem;
+  }
+  .typo2{
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+  .typo2 span{
+    font-size: 2rem;
+  }
+  .description{
+    margin: 1.5rem 0;
+    font-size: 0.9rem;
+  }
+  .sheading{
+    font-size: large;
+  }
+  .background img{
+    top: -30%;
   }
 }
 

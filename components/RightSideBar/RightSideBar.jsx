@@ -1,6 +1,6 @@
-import { Component } from 'react'
-import styles from './LeftSidebar.module.css'
-export default class LeftSidebar extends Component {
+import { Component } from "react";
+
+export default class RightSideBar extends Component {
     render() {
         return (
             <div className='md:fixed md:bottom-0 md:left-6 md:block hidden'>

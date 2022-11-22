@@ -33,8 +33,11 @@
 }
 .menu li{
     display: inline;
-    padding: 15px;
     align-items: center;
+    margin: 15px;
+}
+.menu li:hover{
+    cursor: pointer;
 }
 .menu li a{
     position: relative;
@@ -74,4 +77,18 @@
     backdrop-filter: blur(6px);
     opacity: 0;
     z-index: -1;
+}
+@media (max-width: 600px) {
+    .header{
+        padding: 0 0.5rem;
+    }
+    .progress{
+        padding: 0 0.5rem;
+    }
+    .menu{
+        font-size: medium;
+    }
+    .menu li{
+        margin:8px;
+    }
 }

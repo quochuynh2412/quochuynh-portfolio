@@ -14,7 +14,7 @@ export default class Project extends Component{
                 </Head>
                 <Header/>
                 <div className={styles.wrapper}>
-
+                    
                 </div>
             </div>
         )

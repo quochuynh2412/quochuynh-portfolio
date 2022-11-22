@@ -1,0 +1,31 @@
+.p::after{
+    content: "";
+    display: block;
+    width: 0.8px;
+    height: 65px;
+    margin: 0.75rem auto;
+    background-color:white;
+}
+.p::before{
+    content: "";
+    display: block;
+    width: 0.8px;
+    height: 200px;
+    margin: 0.75rem auto;
+    background-color:white;
+}
+.p li a{
+    display: inline-block;
+    position: relative;
+    padding: 0.75rem;
+    transition: 0.3s;
+}
+#fb:hover{
+    color:#4267B2;
+}
+#ig:hover{
+    color: #bc2a8d;
+}
+#linkedin:hover{
+    color: #0072b1;
+}
