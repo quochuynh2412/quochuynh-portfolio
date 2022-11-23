@@ -1,6 +1,10 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+  font-family: 'Hanoienne';
+  src: url('../public/font/L\'Hanoienne-Demo.ttf') format('truetype');
+}
 html,
 body {
   padding: 0;

@@ -6,20 +6,6 @@ import { Link, animateScroll as scroll } from "react-scroll";
 import Image from 'next/image';
 import logo from '../../public/img/LOGO.png'
 export default class Header extends React.Component {
-    // componentDidMount() {
-    //     window.onscroll =()=>{
-    //         $(window).scroll(function() {
-    //             var scrollTop = $(this).scrollTop();
-    //             $("#scroller").css({
-    //               opacity: function() {
-    //                 var elementHeight = $('#bg').height()/2;
-    //                 return 1 - (elementHeight - scrollTop) / elementHeight;
-    //               }
-    //             })
-    //           }
-    //         )
-    //     }
-    // }
     render() {
         return (
             <header className={classes.header}>
