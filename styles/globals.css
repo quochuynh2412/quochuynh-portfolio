@@ -3,7 +3,7 @@
 @tailwind utilities;
 @font-face {
   font-family: 'Hanoienne';
-  src: url('../font/L\'Hanoienne-Demo.ttf') format("truetype");
+  src: url('/font/L\'Hanoienne-Demo.ttf') format("truetype");
 }
 html,
 body {
