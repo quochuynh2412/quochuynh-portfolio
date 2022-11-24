@@ -70,7 +70,7 @@ export default class Home extends React.Component {
                       <div className='basis-1/2'>
                         <div className={styles.description}>
                           <p><span>Hey&#33;</span> My name is Huynh, a second-year student majoring in Information Technology. I am definitely far different from what people usually assume to be a programmer. My greatest interest goes in Machine Learning/Deep Learning, but I am currently working really hard on web development. I also have experience working with hardware in IoT projects. I might not have much experience, but I am confident I am a dedicated guy to work with, and I am willing to learn new things&#33;&#33;&#33;</p>
-                          <p className='pt-8'>
+                          <div className='pt-8'>
                             Some of my skills:
                             <ul className='flex flex-row flex-wrap gap-3 pt-6'>
                               <li className={styles.skill}>
@@ -89,7 +89,7 @@ export default class Home extends React.Component {
                                 Database Development
                               </li>
                             </ul>
-                          </p>
+                          </div>
                         </div>
                       </div>
                       <div className='basis-1/2 relative' id='3dcanvas'>
