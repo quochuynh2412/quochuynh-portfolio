@@ -42,7 +42,10 @@ export default class Home extends React.Component {
         <LeftSidebar />
         <div className={styles.wrapper}>
           <div className={styles.background} id='bg'>
-            <img src='/img/tranh-ngu-ho-2.jpg' id='bg-img'></img>
+            <Image src='/img/tranh-ngu-ho-2.jpg' 
+              id='bg-img'
+              layout='fill'
+              objectFit='cover'/>
           </div>
           <main className={styles.container}>
             <div className='md:py-36 py-24'>
@@ -54,7 +57,7 @@ export default class Home extends React.Component {
                 </div>
                 <div className='basis-1/3 flex flex-col'>
                   <div className='shrink-0 basis-1/2'>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <p>A little &#34;too much&#34; information is that I am fascinated by classical music and contemporary art. For non-employers, if you somehow landed on this website and you feel like having the same vibe, then just contact me as a friend &#58;&#60;</p>
                   </div>
                   <div className='shrink-0 basis-1/2'></div>
                 </div>
@@ -66,7 +69,7 @@ export default class Home extends React.Component {
                     <div className='flex flex-col md:flex-row'>
                       <div className='basis-1/2'>
                         <div className={styles.description}>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                          <p><span>Hey&#33;</span> My name is Huynh, a second-year student majoring in Information Technology. I am definitely far different from what people usually assume to be a programmer. My greatest interest goes in Machine Learning/Deep Learning, but I am currently working really hard on web development. I also have experience working with hardware in IoT projects. I might not have much experience, but I am confident I am a dedicated guy to work with, and I am willing to learn new things&#33;&#33;&#33;</p>
                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                         </div>
                       </div>

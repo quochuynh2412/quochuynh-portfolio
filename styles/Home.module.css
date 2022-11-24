@@ -39,6 +39,13 @@
   font-size: 2.5rem;
   line-height: .75rem;
 }
+.hanoiennetitle{
+  text-align: center;
+  font-family: 'Hanoienne';
+  font-size: 6rem;
+  line-height: 7rem;
+  align-self: center;
+}
 .typo2 {
   font-family: 'Hanoienne';
   font-size: 6rem;
@@ -103,7 +110,11 @@
   line-height: 1.5;
   font-size: 1.5rem;
 }
-
+.description p span{
+  font-family: 'Hanoienne';
+  font-weight: 500;
+  font-size: 1.5rem;
+}
 .code {
   background: #fafafa;
   border-radius: 5px;
@@ -139,6 +150,9 @@
   .description{
     margin: 1.5rem 0;
     font-size: 0.9rem;
+  }
+  .description{
+    font-size: 1.2rem;
   }
   .sheading{
     font-size: large;

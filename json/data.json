@@ -4,20 +4,23 @@
         "title": "Web portfolio",
         "year": "2022",
         "img": "/img/web-portfolio-01.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        "url": "https://github.com/quochuynh2412/quochuynh-portfolio"
     },
     {
         "id": 1,
         "title": "Arduino air quality index monitoring system",
         "year": "2021",
         "img": "/img/air-quality-project.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        "url":"none"
     },
     {
         "id": 2,
         "title": "Arduino water quality index monitoring system",
         "year": "2019",
         "img": "/img/water-quality-project.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt."
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        "url":"none"
     }
 ]
