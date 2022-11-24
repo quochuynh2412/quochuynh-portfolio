@@ -8,7 +8,7 @@ import Card from '../components/Card/Card'
 import Footer from '../components/Footer/Footer'
 import LeftSidebar from '../components/Sidebar/LeftSidebar'
 import { Element } from 'react-scroll'
-import Model from '../components/Model/Model'
+import ThreeScene from '../components/Model/ThreeScene'
 export default class Home extends React.Component {
   componentDidMount() {
     window.onscroll = () => {
@@ -74,7 +74,7 @@ export default class Home extends React.Component {
                         </div>
                       </div>
                       <div className='basis-1/2 relative' id='3dcanvas'>
-                        <Model/>
+                        <ThreeScene/>
                       </div>
                     </div>
                   </div>
