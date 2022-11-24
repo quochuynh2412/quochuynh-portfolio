@@ -2,7 +2,7 @@ import classes from './Header.module.css'
 // import Link from 'next/link'
 import $ from 'jquery'
 import React from 'react'
-import { Link, animateScroll as scroll } from "react-scroll";
+import Link from 'next/link';
 import Image from 'next/image';
 import logo from '../../public/img/LOGO.png'
 export default class Header extends React.Component {
@@ -11,7 +11,7 @@ export default class Header extends React.Component {
             <header className={classes.header}>
                 <nav className={classes.navbar}>
                     <div className={classes.title}>
-                        <Link to='#'>
+                        <Link href={'/'}>
                             QH
                         </Link>
                     </div>
@@ -19,31 +19,19 @@ export default class Header extends React.Component {
                         <ul className={classes.menu}>
                             <li>
                                 <Link
-                                    to='about'
-                                    smooth={true}
-                                    offset={-30}
-                                    duration={500}>about</Link>
+                                    href={'/#about'}>about</Link>
                             </li>
                             <li>
                                 <Link
-                                    to='projects'
-                                    smooth={true}
-                                    offset={-30}
-                                    duration={500}>projects</Link>
+                                    href={'/#projects'}>projects</Link>
                             </li>
                             <li>
                                 <Link
-                                    to='work'
-                                    smooth={true}
-                                    offset={-30}
-                                    duration={500}>work</Link>
+                                    href={'/#work'}>work</Link>
                             </li>
                             <li>
                                 <Link
-                                    to='contact'
-                                    smooth={true}
-                                    offset={-30}
-                                    duration={500}>contact</Link>
+                                    href={'/#contact'}>contact</Link>
                             </li>
                         </ul>
                     </div>
