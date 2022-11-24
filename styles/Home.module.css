@@ -190,8 +190,8 @@
   padding: 0 1rem;
   border: 1px solid #f5eee6;
   width: fit-content;
-  font-size: 1.5rem;
-  font-weight: 500;
+  font-size: 1.2rem;
+  font-weight: 300;
 }
 
 @media (max-width: 600px) {
