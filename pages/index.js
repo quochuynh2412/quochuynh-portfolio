@@ -57,7 +57,7 @@ export default class Home extends React.Component {
                 </div>
                 <div className='basis-1/3 flex flex-col'>
                   <div className='shrink-0 basis-1/2'>
-                    <p>A little &#34;too much&#34; information is that I am fascinated by classical music and contemporary art. For non-employers, if you somehow landed on this website and you feel like having the same vibe, then just contact me as a friend &#58;&#60;</p>
+                    <p>A little &#34;too much&#34; information is that I am fascinated by classical music and contemporary art. For non-employers, if you somehow landed on this website and felt like having the same vibe, then just hop right in the DM and let me know &#58;&#60;</p>
                   </div>
                   <div className='shrink-0 basis-1/2'></div>
                 </div>
