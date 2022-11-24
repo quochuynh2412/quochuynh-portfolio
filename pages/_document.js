@@ -11,7 +11,7 @@ class CustomDocument extends Document {
           rel="preload"
           href="/font/L'Hanoienne-Demo.ttf"
           as="font"
-          crossOrigin="anonymous"/>
+          crossOrigin="anonymous"></link>
       </Head>
       <body>
         <Main />
