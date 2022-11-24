@@ -4,7 +4,7 @@
         "title": "Web portfolio",
         "year": "2022",
         "img": "/img/web-portfolio-01.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
+        "description": "Have a look at my Github repository of this web application. The project is still being updated continuously...",
         "url": "https://github.com/quochuynh2412/quochuynh-portfolio"
     },
     {
@@ -12,15 +12,15 @@
         "title": "Arduino air quality index monitoring system",
         "year": "2021",
         "img": "/img/air-quality-project.jpg",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-        "url":"none"
+        "description": "An IoT project integrating Arduino Uno with ESP8266 wifi module to record data on air quality.",
+        "url":"/project"
     },
     {
         "id": 2,
         "title": "Arduino water quality index monitoring system",
         "year": "2019",
         "img": "/img/water-quality-project.png",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt.",
-        "url":"none"
+        "description": "An IoT project integrating Arduino Nano with SIM module to record data on water quality.",
+        "url":"/project"
     }
 ]

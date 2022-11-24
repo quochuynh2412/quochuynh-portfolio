@@ -1,7 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
-import Header from '../components/Header/Header'
+import MainHeader from '../components/MainHeader/MainHeader'
 import React from 'react'
 import $ from 'jquery'
 import ThreeScene from '../components/ThreeScene/ThreeScene'
@@ -38,17 +38,17 @@ export default class Home extends React.Component {
           <meta name="description" content="Portfolio" />
           <link rel="icon" href="/favicon.png" />
         </Head>
-        <Header />
+        <MainHeader />
         <LeftSidebar />
         <div className={styles.wrapper}>
           <div className={styles.background} id='bg'>
-            <Image src='/img/tranh-ngu-ho-2.jpg' 
+            <Image src='/img/tranh-ngu-ho-2.jpg'
               id='bg-img'
               layout='fill'
-              objectFit='cover'/>
+              objectFit='cover' />
           </div>
           <main className={styles.container}>
-            <div className='md:py-36 py-24'>
+            <div className='md:pt-36 py-24'>
               <div className='flex md:flex-row w-full flex-col-reverse' id={styles.typo}>
                 <div className='relative shrink-0 basis-2/3 items-end'>
                   <div className={styles.typo2}>
@@ -70,7 +70,26 @@ export default class Home extends React.Component {
                       <div className='basis-1/2'>
                         <div className={styles.description}>
                           <p><span>Hey&#33;</span> My name is Huynh, a second-year student majoring in Information Technology. I am definitely far different from what people usually assume to be a programmer. My greatest interest goes in Machine Learning/Deep Learning, but I am currently working really hard on web development. I also have experience working with hardware in IoT projects. I might not have much experience, but I am confident I am a dedicated guy to work with, and I am willing to learn new things&#33;&#33;&#33;</p>
-                          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+                          <p className='pt-8'>
+                            Some of my skills:
+                            <ul className='flex flex-row flex-wrap gap-3 pt-6'>
+                              <li className={styles.skill}>
+                                React JS
+                              </li>
+                              <li className={styles.skill}>
+                                Python
+                              </li>
+                              <li className={styles.skill}>
+                                Java
+                              </li>
+                              <li className={styles.skill}>
+                                Machine Learning
+                              </li>
+                              <li className={styles.skill}>
+                                Database Development
+                              </li>
+                            </ul>
+                          </p>
                         </div>
                       </div>
                       <div className='basis-1/2 relative' id='3dcanvas'>
@@ -90,14 +109,17 @@ export default class Home extends React.Component {
                 <section className='py-16' id='work'>
                   <h2 className={styles.sheading}>Work Experience</h2>
                   <div className='pt-16'>
-                    nothing to display... <br/> I am desperate for jobs...
+                    nothing to display... <br /> I am desperate for jobs...
                   </div>
                 </section>
               </Element>
               <Element id='contact' name='contact'>
                 <section className='py-16' id='contact'>
-                  <h2 className={styles.sheading}>Contact</h2>
-                  <Card />
+                  <h2 className={styles.contacthd}>Stay Connected</h2>
+                  <div className='text-center pt-16 text-2xl'>
+                    <p>Have an exciting project where you need some help?</p>
+                    <p>Send me <a className={styles.email} href='mailto:quochuynh.work@gmail.com'><span>an email</span></a></p>
+                  </div>
                 </section>
               </Element>
             </div>
