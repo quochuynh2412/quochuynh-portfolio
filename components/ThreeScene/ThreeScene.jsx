@@ -9,7 +9,7 @@ export default function Viewer() {
     <div className={styles.canvas}>
       <Canvas shadows dpr={[1, 2]} camera={{ fov: 50 }}>
         <Suspense fallback={null}>
-          <Stage controls={ref} preset="rembrandt" intensity={1} environment="city">
+          <Stage controls={ref} preset="rembrandt" intensity={1}>
             false
             <Model />
             false
