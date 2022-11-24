@@ -13,9 +13,9 @@ export default class Card extends Component{
                         </a>
                         <div key={project.id} className="md:p-5 p-3">
                             <a href={project.url} className={styles.projectlink} target="_blank" rel="noopener noreferrer">
-                                <h5 className="md:mb-2 mb-0 md:text-xl text-sm font-bold tracking-tight text-zinc-900 dark:text-white">{project.title}</h5>
+                                <h5 className="md:mb-2 mb-0 md:text-xl text-sm font-bold tracking-tight text-white ">{project.title}</h5>
                             </a>
-                            <p className="mb-3 font-normal text-zinc-700 dark:text-zinc-400 md:block hidden">{project.description}</p>
+                            <p className="mb-3 font-normal text-zinc-400 md:block hidden">{project.description}</p>
                         </div>
                     </div>
                 ))}
