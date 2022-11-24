@@ -94,6 +94,10 @@ export default class Home extends React.Component {
                       </div>
                       <div className='basis-1/2 relative' id='3dcanvas'>
                         <ThreeScene />
+                        <p className='text-center absolute bottom-5 items-center left-0 right-0 m-auto'>
+                          Credits:
+                          <a className="cre" href='https://www.instagram.com/designition.vinhvu/' target="_blank" rel="noopener noreferrer"> @designnition.vinhvu</a>
+                        </p>
                       </div>
                     </div>
                   </div>
