@@ -1,7 +1,4 @@
 import projects from '../../json/data.json'
-import Link from 'next/link';
-import Project from '../../pages/project';
-import Image from 'next/image';
 import { Component } from 'react';
 import {RevealList} from 'next-reveal';
 import styles from './Card.module.css'
