@@ -12,6 +12,7 @@ body {
   margin: 0;
   font-family: 'Lato';
   font-weight: 300;
+  color: white;
 }
 
 a {
@@ -30,12 +31,3 @@ a {
   -webkit-text-fill-color: transparent;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-}
