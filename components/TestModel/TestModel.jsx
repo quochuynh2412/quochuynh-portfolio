@@ -17,7 +17,7 @@ export default function TestModel() {
                     <ambientLight intensity={0.5} />
                     <Robot position={[0, -0.9, 0]} scale={0.7} />
                     <Environment preset="city" />
-                    <OrbitControls ref={ref} autoRotate enableZoom={false} enableRotate={true} />
+                    <OrbitControls ref={ref} autoRotate enableZoom={false} enableRotate={true} autoRotateSpeed={4.0} />
                 </Canvas>
             </Suspense>
         </div>
