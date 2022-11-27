@@ -4,8 +4,7 @@ import styles from '../styles/Home.module.css'
 import MainHeader from '../components/MainHeader/MainHeader'
 import React from 'react'
 import $ from 'jquery'
-// import ThreeScene from '../components/ThreeScene/ThreeScene'
-import TestModel from '../components/TestModel/TestModel'
+import Model from '../components/Model/Model'
 import Card from '../components/Card/Card'
 import Footer from '../components/Footer/Footer'
 import LeftSidebar from '../components/Sidebar/LeftSidebar'
@@ -94,7 +93,7 @@ export default class Home extends React.Component {
                         </div>
                       </div>
                       <div className='basis-1/2 relative' id='3dcanvas'>
-                        <TestModel />
+                        <Model />
                         <p className='text-center absolute bottom-5 items-center left-0 right-0 m-auto'>
                           Credits:
                           <a className="cre" href='https://www.instagram.com/designition.vinhvu/' target="_blank" rel="noopener noreferrer"> @designnition.vinhvu</a>
