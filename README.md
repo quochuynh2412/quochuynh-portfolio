@@ -1,5 +1,8 @@
 # Quoc Huynh's portfolio website
 You guys can track my progress through this repository.
+Access the website here: [letrinhquochuynh.com](https://www.letrinhquochuynh.com/)
+Preview:
+![My Image](website-preview.png)
 
 ## Getting Started
 
