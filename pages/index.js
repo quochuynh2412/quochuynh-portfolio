@@ -113,7 +113,14 @@ export default class Home extends React.Component {
                 <section className='py-16' id='work'>
                   <h2 className={styles.sheading}>Work Experience</h2>
                   <div className='pt-16'>
-                    nothing to display... <br /> I am desperate for jobs...
+                    <ol class="relative border-l border-gray-700">
+                      <li class="mb-10 ml-4">
+                        <div class="absolute w-3 h-3 rounded-full mt-1.5 -left-1.5 border border-gray-700 bg-gray-700"></div>
+                        <time class="mb-1 text-sm font-normal leading-none text-gray-500">January 2023 - present</time>
+                        <h3 class="text-lg font-semibold text-white">Bosch Global Software Technologies Vietnam</h3>
+                        <p class="mb-4 text-base font-normal text-gray-400">Java Intern</p>
+                      </li>
+                    </ol>
                   </div>
                 </section>
               </Element>
