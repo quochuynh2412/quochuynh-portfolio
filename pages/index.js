@@ -45,7 +45,8 @@ export default class Home extends React.Component {
             <Image src='/img/tranh-ngu-ho-2.jpg'
               id='bg-img'
               layout='fill'
-              objectFit='cover' />
+              objectFit='cover'
+              priority={true} />
           </div>
           <main className={styles.container}>
             <div className='md:pt-36 py-24'>
