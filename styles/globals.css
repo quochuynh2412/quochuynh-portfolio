@@ -25,7 +25,7 @@ a {
 }
 .cre:hover{
   cursor: pointer;
-  font-weight: 400;
+  font-weight: 900;
   background: linear-gradient(271deg, #EFEADD 15%, #D23E40 50%, #E89952 85%, #EFEADD 95%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;

@@ -13,7 +13,7 @@
         "year": "2021",
         "img": "/img/air-quality-project.jpg",
         "description": "An IoT project integrating Arduino Uno with ESP8266 wifi module to record data on air quality.",
-        "url":"/project"
+        "url": "/project"
     },
     {
         "id": 2,
@@ -21,6 +21,14 @@
         "year": "2019",
         "img": "/img/water-quality-project.png",
         "description": "An IoT project integrating Arduino Nano with SIM module to record data on water quality.",
-        "url":"/project"
+        "url": "/project"
+    },
+    {
+        "id": 3,
+        "title": "Mentscape | Web-app platform supporting people with mental issues",
+        "year": "2019",
+        "img": "/img/mentscape.png",
+        "description": "An web application integrating ReactJS and Firebase. The project aims to connect patients with their therapists",
+        "url": "/project"
     }
 ]

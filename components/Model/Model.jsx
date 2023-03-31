@@ -4,8 +4,8 @@ import React, { Suspense, useRef } from 'react'
 import styles from './ThreeScene.module.css'
 
 function Robot(props) {
-    const { scene } = useGLTF('/robot-1-compressed.glb')
-    return <primitive object={scene} {...props} />
+    const { scene } = useGLTF('/compressed-robot.glb');
+    return <primitive object={scene} {...props} />;
 }
 
 export default function Model() {
