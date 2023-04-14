@@ -1,4 +1,6 @@
-.root {}
+.root {
+  --cursor-color: #fff
+}
 
 .wrapper {
   overflow-x: hidden !important;

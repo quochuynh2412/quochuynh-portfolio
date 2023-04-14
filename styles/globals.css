@@ -13,6 +13,7 @@ body {
   font-family: 'Lato';
   font-weight: 300;
   color: white;
+  --cursor-color: #fff;
 }
 
 a {

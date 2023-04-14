@@ -4,6 +4,8 @@ import styles from '../styles/Home.module.css'
 import Head from "next/head";
 import Image from "next/image";
 import Footer from "../components/Footer/Footer";
+import { Worker, Viewer } from '@react-pdf-viewer/core';
+import '@react-pdf-viewer/core/lib/styles/index.css';
 export default class Project extends Component {
     render() {
         return (
@@ -29,7 +31,7 @@ export default class Project extends Component {
                         </div>
                     </div>
                 </div>
-                <Footer/>
+                <Footer />
             </div>
         )
     }

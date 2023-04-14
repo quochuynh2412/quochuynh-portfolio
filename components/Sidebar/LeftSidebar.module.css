@@ -22,10 +22,13 @@
 }
 #fb:hover{
     color:#4267B2;
+    --cursor-color: #4267B2;
 }
 #ig:hover{
     color: #bc2a8d;
+    --cursor-color: #bc2a8d
 }
 #linkedin:hover{
     color: #0072b1;
+    --cursor-color: #0072b1
 }

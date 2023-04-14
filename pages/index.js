@@ -9,6 +9,10 @@ import Card from '../components/Card/Card'
 import Footer from '../components/Footer/Footer'
 import LeftSidebar from '../components/Sidebar/LeftSidebar'
 import { Element } from 'react-scroll'
+import dynamic from 'next/dynamic'
+const AnimatedCursor = dynamic(() => import('react-animated-cursor'), {
+  ssr: false
+});
 export default class Home extends React.Component {
   componentDidMount() {
     window.onscroll = () => {
@@ -33,6 +37,19 @@ export default class Home extends React.Component {
   render() {
     return (
       <div className='root'>
+        <AnimatedCursor
+          color="255,255,255"
+          innerSize={7}
+          outerSize={37}
+          innerScale={1}
+          outerScale={1.7}
+          outerAlpha={0}
+          outerStyle={{
+            border: '1px solid var(--cursor-color)'
+          }}
+          innerStyle={{
+            backgroundColor: 'var(--cursor-color)'
+          }} />
         <Head>
           <title>Quoc Huynh</title>
           <meta name="description" content="Portfolio" />
