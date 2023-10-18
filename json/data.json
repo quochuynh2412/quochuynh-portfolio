@@ -1,6 +1,14 @@
 ﻿[
     {
         "id": 0,
+        "title": "SEGNO 2023: Color Chords - RMIT Hanoi Music Club",
+        "year": "2023",
+        "img": "/img/segno.png",
+        "description": "A ticketing website for a music event of RMIT Hanoi Music Club. The project is still being updated continuously..",
+        "url": "https://www.segno.rhmc.club/"
+    },
+    {
+        "id": 1,
         "title": "Web portfolio",
         "year": "2022",
         "img": "/img/web-portfolio-01.png",
@@ -8,7 +16,7 @@
         "url": "https://github.com/quochuynh2412/quochuynh-portfolio"
     },
     {
-        "id": 1,
+        "id": 2,
         "title": "Arduino air quality index monitoring system",
         "year": "2021",
         "img": "/img/air-quality-project.jpg",
@@ -16,7 +24,7 @@
         "url": "/project"
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "Arduino water quality index monitoring system",
         "year": "2019",
         "img": "/img/water-quality-project.png",
@@ -24,7 +32,7 @@
         "url": "/project"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Mentscape | Web-app platform supporting people with mental issues",
         "year": "2019",
         "img": "/img/mentscape.png",

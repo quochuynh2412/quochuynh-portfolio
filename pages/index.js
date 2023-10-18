@@ -39,8 +39,9 @@ export default class Home extends React.Component {
       <div className='root'>
         <AnimatedCursor
           color="255,255,255"
+          trailingSpeed={3.5}
           innerSize={7}
-          outerSize={37}
+          outerSize={35}
           innerScale={1}
           outerScale={1.7}
           outerAlpha={0}

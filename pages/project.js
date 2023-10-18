@@ -26,7 +26,8 @@ export default class Project extends Component {
                     <div className="flex flex-row items-center w-screen h-screen">
                         <div className="basis-full">
                             <div className={styles.hanoiennetitle}>
-                                COMING SOON
+                                COMING SOON<br />
+                                TOO LAZY TO BUILD THIS PAGE
                             </div>
                         </div>
                     </div>
